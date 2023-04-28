@@ -37,7 +37,8 @@ public class PlayerVsPlayerChallengeTestToString {
 
 	@Test
 	public void testToString() {
-		assertThat(toTest.toString(), is(this.expectedToString));
+		//assertThat(toTest.toString(), is(this.expectedToString));
+		Assert.Fail("fail");
 	}
 
 }
